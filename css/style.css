@@ -1,0 +1,102 @@
+body{
+        background: url(../images/netflix\ wallpaper.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        /*opacity: 0.5;*/
+
+}
+
+.signup h1 {
+	color: #fff;
+        /*text-align: left;*/
+}
+
+.signup {
+        background: #000;
+	padding: 40px;
+	width: 250px;
+	margin: 0 auto;
+}
+
+form {
+	text-align: center;
+	width: 240px;
+	margin-top: -10;
+        color: #fff;
+}
+
+
+button {
+	border: none;
+        background: red;
+        margin: 10px;
+        padding: 8px;
+	width: 240px;
+	color: #fff;
+	font-size: 14px;
+	font-weight: bold;
+
+
+
+}
+
+input {
+	width: 240px;
+	/*text-align: center;
+	background: transparent;
+	border: none;
+	font-size: 16px;
+	font-weight: 200px;
+	padding: 10px 0;
+        /*border-bottom: 1px solid white;
+        transition: border 0.5s;*/
+	outline: none;
+	height: 25px;
+	color: white;	
+	border-radius: 1px;
+}
+
+a {
+	text-decoration: none;
+
+}
+
+p {
+	color: wheat;
+}
+
+footer {
+	background: #000
+}
+footer .footer-cols{
+        display: grid;
+        grid-gap: 20px;
+        grid-template-columns: repeat(4, 1fr);
+        padding: 2rem;
+        text-align: left;
+        font-size: 14px;
+}
+    
+footer h3 a{
+        color: whitesmoke;
+        text-decoration: none;
+}
+
+footer .footer-cols ul{
+        list-style: none;
+        
+}
+    
+footer .footer-cols ul li a{
+        color:whitesmoke;
+        text-decoration: none;
+        line-height: 1.6;
+        font-size: 12px;
+
+}
+
+footer .footer-bottom {
+        background: #000;
+        padding: 1rem;
+        text-align: center;
+}
